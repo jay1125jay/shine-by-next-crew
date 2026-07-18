@@ -11,6 +11,7 @@
 - 전화: 0507-1318-7436
 - 이메일: shine.by.nc@gmail.com
 - 카카오톡 채팅: https://pf.kakao.com/_nPdfX/chat
+- 공식 로고: logo.png
 - 지역: 송도·인천
 - 작업 범위: 단층 및 안전하게 접근 가능한 구역, 고층 로프 작업 제외
 
