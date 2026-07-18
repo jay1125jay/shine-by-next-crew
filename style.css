@@ -33,7 +33,7 @@ button, input, textarea, select { font: inherit; }
   backdrop-filter: blur(16px);
 }
 .brand { display: flex; align-items: center; height: 68px; }
-.brand img { display: block; width: 138px; height: 68px; object-fit: contain; }
+.brand img { display: block; width: 180px; max-width: 42vw; height: 60px; object-fit: contain; }
 .header-call { padding: 10px 16px; border: 1px solid var(--ink); font-size: 13px; font-weight: 600; }
 
 .hero {
@@ -98,7 +98,7 @@ button, input, textarea, select { font: inherit; }
 .process-side > p:first-child { font-weight: 700; }
 .process-side ul { padding: 0; margin: 26px 0 40px; list-style: none; }
 .process-side li { padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
-.process-side li::before { content: "✓"; margin-right: 12px; }
+.process-side li::before { content: "��"; margin-right: 12px; }
 .small-note { color: var(--muted); font-size: 11px; line-height: 1.7; }
 
 .quote { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8vw; }
@@ -124,7 +124,7 @@ footer p { margin: 6px 0; color: #aaa; font-size: 12px; }
 @media (max-width: 860px) {
   .site-header { min-height: 68px; padding-inline: 20px; }
   .brand { height: 58px; }
-  .brand img { width: 118px; height: 58px; }
+  .brand img { width: 140px; height: 50px; }
   .header-call { display: none; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding: 70px 22px 50px; }
   .hero h1 { font-size: clamp(42px, 12vw, 62px); }
