@@ -8,7 +8,7 @@
 
 ## 현재 연결된 정보
 
-- 전화: 010-7516-7436
+- 전화: 0507-1318-7436
 - 이메일: shine.by.nc@gmail.com
 - 카카오톡 채팅: https://pf.kakao.com/_nPdfX/chat
 - 지역: 송도·인천
