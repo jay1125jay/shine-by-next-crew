@@ -32,11 +32,8 @@ button, input, textarea, select { font: inherit; }
   border-bottom: 1px solid rgba(10, 10, 10, .1);
   backdrop-filter: blur(16px);
 }
-.brand { display: flex; align-items: center; gap: 11px; }
-.brand-mark { width: 44px; fill: none; stroke: currentColor; stroke-width: 2; }
-.brand span { display: grid; font-family: Inter, sans-serif; line-height: 1; }
-.brand strong { font-size: 17px; letter-spacing: .35em; }
-.brand small { margin-top: 6px; font-size: 8px; letter-spacing: .22em; }
+.brand { display: flex; align-items: center; height: 68px; }
+.brand img { display: block; width: 138px; height: 68px; object-fit: contain; }
 .header-call { padding: 10px 16px; border: 1px solid var(--ink); font-size: 13px; font-weight: 600; }
 
 .hero {
@@ -126,8 +123,8 @@ footer p { margin: 6px 0; color: #aaa; font-size: 12px; }
 
 @media (max-width: 860px) {
   .site-header { min-height: 68px; padding-inline: 20px; }
-  .brand-mark { width: 38px; }
-  .brand strong { font-size: 14px; }
+  .brand { height: 58px; }
+  .brand img { width: 118px; height: 58px; }
   .header-call { display: none; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding: 70px 22px 50px; }
   .hero h1 { font-size: clamp(42px, 12vw, 62px); }
